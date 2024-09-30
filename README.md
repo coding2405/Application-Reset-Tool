@@ -1,2 +1,21 @@
-# Application-Reset-Tool
-Application Reset Tool is a lightweight batch script for Windows that allows users to manage installed applications via the command line. Quickly scan for applications, select one to reset or uninstall, and receive visual feedback with a loading indicator. Ideal for developers and system administrators managing software environments efficiently.
+# Application Reset Tool
+
+A simple batch script for scanning installed applications on Windows and providing the option to reset or uninstall them. This tool is useful for managing applications directly from the command line.
+
+## Features
+
+- **List Installed Applications**: Automatically retrieves and displays a list of all installed applications on your system.
+- **Reset or Uninstall**: Allows you to select an application and either reset or uninstall it.
+- **Loading Indicator**: Displays a loading bar while processing to improve user experience.
+
+## Requirements
+
+- Windows operating system
+- Administrative privileges to uninstall applications
+
+## How to Use
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/coding2405/application-reset-tool
+   cd application-reset-tool
